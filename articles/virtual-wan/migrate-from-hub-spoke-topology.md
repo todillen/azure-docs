@@ -24,7 +24,7 @@ This article describes how to migrate an existing hybrid environment to virtual 
 
 ## Scenario
 
-Contoso are a global financial organization with offices in both Europe and Asia. They are planning to move their existing applications from their on-premises domain controller in to Azure and have built out a foundation design based on the VDC architecture, including regional customer-managed hub virtual networks for hybrid connectivity. As part of the move to cloud- based technologies the network team have been tasked with ensuring their connectivity is optimized for the business moving forward.
+Contoso is a global financial organization with offices in both Europe and Asia. They are planning to move their existing applications from their on-premises domain controller into Azure and have built out a foundation design based on the VDC architecture, including regional customer-managed hub virtual networks for hybrid connectivity. As part of the move to cloud- based technologies the network team have been tasked with ensuring their connectivity is optimized for the business moving forward.
 
 Figure 2 shows a high-level view of the existing global network including connectivity to multiple Azure regions.
 
