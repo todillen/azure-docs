@@ -1,5 +1,6 @@
 ---
-title: Customize the user interface in Azure Active Directory B2C
+title: Customize the user interface
+titleSuffix: Azure AD B2C
 description: Learn how to customize the user interface for your applications that use Azure Active Directory B2C.
 services: active-directory-b2c
 author: mmacy
@@ -60,6 +61,8 @@ Next, select a template from the list. Here are examples of the sign-in pages fo
 When you choose a template, the selected layout is applied to all pages in your user flow, and the URI for each page is visible in the **Custom page URI** field.
 
 ## Custom HTML and CSS
+
+If you wish to design your own policy layout with your customized HTML and CSS, you can do so by switching the "Use custom page content" toggle for each of the Layout names present in your policy. Please follow the below instructions regarding the custom layout configurations:
 
 Azure AD B2C runs code in your customer's browser by using an approach called [Cross-Origin Resource Sharing (CORS)](https://www.w3.org/TR/cors/).
 
